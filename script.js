@@ -101,7 +101,7 @@ var generateBtn = document.querySelector("#generate");
             }
           
             // Store userinput using object
-            var userInput = {specialChar: specialCharacter, numChar: numeric, lowerChar: lowercase, upperChar: uppercase, password: passwordLength};
+            var userInput = {specialChar: specialCharacter, numChar: numeric, lowerChar: lowercase, upperChar: uppercase, password: Length};
           
             //  Return userinput using object
             return userInput;
